@@ -1,0 +1,61 @@
+.todoEdit {
+    position: absolute;
+    width: 800px;
+    height: 450px;
+    left: 900px;
+    top: 130px;
+    background-color: white;
+    color: lightcoral;
+    text-align: center;
+    align-items: center;
+    border: 2px solid lightcoral;
+    border-radius: 20px;
+}
+
+.Input {
+    width: 90%;
+    padding: 5px 15px;
+    border: 1px solid lightcoral;
+    margin: 2px 0 2px 5px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: 'Arial', serif;
+    white-space: normal;
+}
+.TextArea {
+    width: 90%;
+    padding: 5px 15px;
+    border: 1px solid lightcoral;
+    margin: 2px 0 2px 5px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: 'Arial', serif;
+    white-space: normal;
+}
+
+.Button {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    top: 10px;
+    background: white;
+    border: 1px solid lightcoral;
+    border-radius: 20px;
+    color: lightcoral;
+    cursor: pointer;
+}
+
+.Button:hover {
+    color: white;
+    background: lightcoral;
+}
+
+.Select {
+    color: lightcoral;;
+    width: 200px;
+    height: 50px;
+    border: 1px solid lightcoral;
+    border-radius: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}

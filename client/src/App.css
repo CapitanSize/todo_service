@@ -1,0 +1,159 @@
+.App {
+  text-align: center;
+}
+
+.Nav {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  background: white;
+  border: 2px solid lightcoral;
+  color: lightcoral;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+h1 {
+  font-family: 'Arial', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  display: flex;
+}
+
+.TodoList {
+  position: relative;
+  width: 550px;
+  height: 600px;
+  left: 75px;
+  top: 25px;
+  background-color: white;
+  overflow: auto;
+  resize: horizontal;
+  max-width: 800px;
+  min-width: 560px;
+}
+.TodoItem {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  top: 20px;
+  border: 1px solid lightcoral;
+  border-radius: 20px;
+  background-color: white;
+  padding-left: 10px;
+  margin-right: 5px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  max-width: 750px;
+  min-width: 450px;
+}
+.TodoItem-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+  margin-top: 25px;
+  font-size: 25px;
+  font-weight: bold;
+  float: left;
+  min-width: 300px;
+  max-width: 550px;
+  font-family: 'Arial', serif;
+}
+.TodoItem:hover {
+  box-shadow: 2px 2px 2px 2px lightcoral,
+  -2px -2px 2px 2px lightcoral;
+
+}
+.MyBtn {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  top: 10px;
+  background: white;
+  border: 1px solid lightcoral;
+  border-radius: 20px;
+  color: lightcoral;
+  cursor: pointer;
+}
+.MyBtn:hover {
+  color: white;
+  background: lightcoral;
+}
+.todoButtonDelete {
+  color: white;
+  width: 70px;
+  height: 30px;
+  background: red;
+  border: 1px solid red;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.todoButtonDelete:hover {
+  background: white;
+  color: red;
+}
+.todoItemButtons {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+
+}
+.divButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.myInput {
+  width: 90%;
+  padding: 5px 15px;
+  border: 1px solid lightcoral;
+  margin: 5px 0 5px 5px;
+  border-radius: 10px;
+}
+
+.addTodos {
+  position: relative;
+  width: 550px;
+  left: 80px;
+  top: 10px;
+}
+
+.Choose {
+  position: absolute;
+  width: 800px;
+  height: 450px;
+  left: 900px;
+  top: 130px;
+  font-family: 'Arial', serif;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: lightcoral;
+}
+
+.searchInput {
+  width: 300px;
+  padding: 5px 15px;
+  border: 1px solid lightcoral;
+  margin: 10px 0 5px 185px;
+  border-radius: 10px;
+}
+
+.noTodos {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Arial', serif;
+  color: lightcoral;
+}
+
